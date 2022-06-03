@@ -27,7 +27,7 @@ class App extends React.Component{
               <li><Link to='/woman'>Woman</Link></li>
             </ul>
           </div>
-          <Routes>
+          <Routes basename="/shopdemo">
             <Route path="/" element={<HomePage/>}/>
             <Route  path="man" element={<ManPage/>}>
               <Route path="shirts" element={<ManShirts/>}/>
