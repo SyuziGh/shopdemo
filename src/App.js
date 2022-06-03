@@ -20,16 +20,16 @@ class App extends React.Component{
   render(){
     return(
       <>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="/shopdemo">
           <div className='header nav'>
             <ul>
               <li><Link to='/man'>Man</Link></li>
               <li><Link to='/woman'>Woman</Link></li>
             </ul>
           </div>
-          <Routes basename="/shopdemo">
-            <Route path="/" element={<HomePage/>}/>
-            <Route  path="man" element={<ManPage/>}>
+          <Routes>
+            <Route exact path="/" element={<HomePage/>}/>
+            <Route  exact path="man" element={<ManPage/>}>
               <Route path="shirts" element={<ManShirts/>}/>
               <Route path="shoes" element={<ManShoes/>}/>
             </Route>
