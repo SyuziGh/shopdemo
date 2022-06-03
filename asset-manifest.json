@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopdemo/static/css/main.cf1bb31c.css",
+    "main.js": "/shopdemo/static/js/main.a5adeb58.js",
+    "static/js/787.1db9d566.chunk.js": "/shopdemo/static/js/787.1db9d566.chunk.js",
+    "static/media/manPageHeader.jpg": "/shopdemo/static/media/manPageHeader.0b911583b6d0e187a0b3.jpg",
+    "static/media/womanPageHeader.jpg": "/shopdemo/static/media/womanPageHeader.2cbee620e94a33188e61.jpg",
+    "static/media/carousel-item-2.jpg": "/shopdemo/static/media/carousel-item-2.cc118597b34e6c11c80b.jpg",
+    "static/media/manShoes-2.jpg": "/shopdemo/static/media/manShoes-2.15d82b10751a094c196f.jpg",
+    "static/media/womanDress-3.jpg": "/shopdemo/static/media/womanDress-3.092ea4cdaa44a3a5dec9.jpg",
+    "static/media/manShirt-2.jpg": "/shopdemo/static/media/manShirt-2.f437ef5ab4d187b27870.jpg",
+    "static/media/manShirt-3.jpg": "/shopdemo/static/media/manShirt-3.1eefc9be8aec1b574c97.jpg",
+    "static/media/carousel-item-1.jpg": "/shopdemo/static/media/carousel-item-1.7ea27d3b5bf1ecb04e73.jpg",
+    "static/media/womanDress-1.jpg": "/shopdemo/static/media/womanDress-1.b03d90f4d3b4469521d5.jpg",
+    "static/media/manShoes-3.jpg": "/shopdemo/static/media/manShoes-3.e8bd24966c593afe61a7.jpg",
+    "static/media/womanBag-2.jpg": "/shopdemo/static/media/womanBag-2.1236fae50d3f1823f08a.jpg",
+    "static/media/womanBag-3.jpg": "/shopdemo/static/media/womanBag-3.a55eaf2a7e8c06dc5e07.jpg",
+    "static/media/manShirt-1.jpg": "/shopdemo/static/media/manShirt-1.4c6afc8331f18f69691d.jpg",
+    "static/media/womanBag-1.jpg": "/shopdemo/static/media/womanBag-1.a8ce2a77f4bf05827b11.jpg",
+    "static/media/womanDress-2.jpg": "/shopdemo/static/media/womanDress-2.55f7a07a719ac448ed4e.jpg",
+    "static/media/manShoes-1.jpg": "/shopdemo/static/media/manShoes-1.c088fe17999419fb12e8.jpg",
+    "index.html": "/shopdemo/index.html",
+    "main.cf1bb31c.css.map": "/shopdemo/static/css/main.cf1bb31c.css.map",
+    "main.a5adeb58.js.map": "/shopdemo/static/js/main.a5adeb58.js.map",
+    "787.1db9d566.chunk.js.map": "/shopdemo/static/js/787.1db9d566.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf1bb31c.css",
+    "static/js/main.a5adeb58.js"
+  ]
+}
