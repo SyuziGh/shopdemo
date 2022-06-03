@@ -2,7 +2,7 @@ import React from "react"
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Link,
@@ -28,7 +28,7 @@ class App extends React.Component{
             </ul>
           </div>
           <Routes>
-            <Route exact path="/" element={<HomePage/>}/>
+            <Route path="/" element={<HomePage/>}/>
             <Route  path="man" element={<ManPage/>}>
               <Route path="shirts" element={<ManShirts/>}/>
               <Route path="shoes" element={<ManShoes/>}/>
