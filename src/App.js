@@ -2,7 +2,7 @@ import React from "react"
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link,
@@ -20,7 +20,7 @@ class App extends React.Component{
   render(){
     return(
       <>
-        <Router basename="/shopdemo">
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <div className='header nav'>
             <ul>
               <li><Link to='/man'>Man</Link></li>
@@ -28,7 +28,7 @@ class App extends React.Component{
             </ul>
           </div>
           <Routes>
-            <Route exact path="/" element={<HomePage/>}/>
+            <Route exact path='/' element={<HomePage/>}/>
             <Route  exact path="man" element={<ManPage/>}>
               <Route path="shirts" element={<ManShirts/>}/>
               <Route path="shoes" element={<ManShoes/>}/>
